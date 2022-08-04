@@ -44,7 +44,7 @@ const person1 = {
 
 const person = {
     names: "krish",
-    age2: 45,
+    age2: 4522,
     isMarried: False, 
 };
 
@@ -52,12 +52,14 @@ const person2 = {...person, name: "jack"}
 
 const namess = ["krish", 'jennifer', 'veritas', "pedro", "Pedro"]
 const namess1 = [...namess, 'acme']
+const namess2 = [...namess, 'acme']
 
 //const name4 = person.name
 //const age4 = person.age
 //const married = person.isMarried
 
 const {name4, age4, isMarried} = person;
+
 
 
 namess.map((name) => {
